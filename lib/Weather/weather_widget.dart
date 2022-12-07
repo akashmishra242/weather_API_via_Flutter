@@ -28,7 +28,7 @@ class _WeatherWidgetState extends State<WeatherWidget> {
   }
 
   Future<WeatherModel> getWeatherAPI() async {
-    const weatherapikey = '48d3958e65ec8038d8d1924fb7be500d';
+    const weatherapikey = '<yourAPIKEY>';
     final response = await http.get(
       Uri.parse(
         'http://api.weatherstack.com/current?access_key=$weatherapikey&query=$query',
