@@ -1,16 +1,13 @@
-# weather_app
+# WeatherAPP(API calls in Flutter)
 
-A new Flutter project.
+This flutter Project feteches the Current Weather of any location.(ft. Weather App with manual search, Get weatherlocation via IP address & Autodetect.)
 
-## Getting Started
+### **This application includes:**
+1) Weather of a location via manual search.
+2) Weather of a location via IP address.
+3) Weather of a location via Autodetect.
 
-This project is a starting point for a Flutter application.
+# ScreenShots
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_20221208_040118](https://user-images.githubusercontent.com/91900783/206313150-41da8cb7-cff4-43a8-9758-fb3d0b3113de.png)
+![Screenshot_20221208_040213](https://user-images.githubusercontent.com/91900783/206313156-dbd5dfa6-4c80-429f-bfe0-c967ee0db439.png)
