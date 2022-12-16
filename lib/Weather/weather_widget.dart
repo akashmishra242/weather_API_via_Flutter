@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'package:weather_app/Weather/weather_model.dart';
+import 'package:weather_app/constants.dart';
 
 class WeatherWidget extends StatefulWidget {
   const WeatherWidget({super.key});
@@ -28,7 +29,7 @@ class _WeatherWidgetState extends State<WeatherWidget> {
   }
 
   Future<WeatherModel> getWeatherAPI() async {
-    const weatherapikey = '<yourAPIKEY>';
+    const weatherapikey = weatherAPIkey; //'<yourAPIKEY>'
     final response = await http.get(
       Uri.parse(
         'http://api.weatherstack.com/current?access_key=$weatherapikey&query=$query',
